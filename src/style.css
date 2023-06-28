@@ -28,9 +28,10 @@ audio {
     left: 10px;
     opacity: 0.3;
     transition: opacity 300ms;
-    &:hover {
-        opacity: 1;
-    }
+}
+
+audio:hover {
+    opacity: 1;
 }
 
 .audio {
